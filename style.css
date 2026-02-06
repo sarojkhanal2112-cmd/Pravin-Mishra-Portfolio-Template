@@ -982,9 +982,9 @@ section {
   font-size: 18px;
 }
 
-.icon-box.yellow {
-  background: rgba(250, 204, 21, 0.1);
-  color: #facc15;
+.icon-box.glow-blue {
+  background: rgba(74, 50, 213, 0.1);
+  color: #309ae7;
 }
 
 .icon-box.blue {
@@ -1065,6 +1065,43 @@ section {
   line-height: 1.6;
   max-width: 420px;
 }
+
+.site-footer {
+  background-color: #111;        /* strong contrast */
+  color: #eaeaea;                /* readable text */
+  padding: 24px 16px;            /* breathing space */
+  margin-top: 60px;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.site-footer p {
+  font-size: 14px;               /* readable but subtle */
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;               /* important for mobile */
+}
+
+.footer-links a {
+  color: #9ad1ff;                /* visible links */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
 
 /* Socials */
 .footer-socials {
